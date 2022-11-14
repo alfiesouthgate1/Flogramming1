@@ -47,5 +47,3 @@ function emailIsValid(email){
     let pattern = /\S+@\S+\.\S+/;
     return pattern.test(email)}
 }
-
-
