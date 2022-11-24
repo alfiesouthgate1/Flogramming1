@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&display=swap');
+
+h1,h2,h3 {
+    font-family: "Playfair Display";
+}
+
+body {
+    margin: 0;
+    font-family: "Pt Serif";
+    font-size: 17px;
+
+}
+
+.box{
+    width: 83%;
+    overflow: hidden;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #dbfeb8;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+button {
+    font-family: "Pt Serif";
+    border: none;
+    background-color: white;
+    font-size: 17px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    border: black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #dbfeb8;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #b7e4c7;
+}
+
+#banner {
+    text-align: center;
+}
+
+.major {
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+
+.major p {
+    text-indent: 0.5in;
+    text-align: justify;
+}
+
+.imgbox {
+    text-align: center;
+    margin: 30px;
+}
+
+.imgbox img {
+    width: 60%;
+    border-radius: 5px;
+}
+
+#lefted {
+    float: left;
+    width: 47%;
+    margin-right: 6%;
+    box-sizing: border-box;
+    text-align: justify;
+    background-color: #74c69d;
+    border-radius: 7px;
+}
+
+#lefted h3 {
+    text-align: center;
+    padding: 5% 5% 0 5%;
+}
+
+#lefted ul {
+    padding: 0 5% 5%;
+}
+
+#lefted li {
+    padding: 1%;
+}
+
+#righted {
+    float: right;
+    width: 47%;
+    box-sizing: border-box;
+    text-align: justify;
+    background-color: #74c69d;
+    border-radius: 7px;
+}
+
+#righted h3 {
+    text-align: center;
+    padding: 5% 5% 0 5%;
+}
+
+#righted p {
+    padding: 0 5% 5%;
+    text-indent: 0.5in;
+}
+
+#bottom {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #525174;
+}
+
+#bottom p {
+    color: white;
+}
+
+@media(max-width: 600px) {
+    #lefted {
+        width: 100%;
+        float: none;
+    }
+
+    #righted {
+        width: 100%;
+        float: none;
+    }
+}
