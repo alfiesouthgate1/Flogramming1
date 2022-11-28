@@ -63,8 +63,8 @@ input[type="submit"] {
     margin-top: 30px;
     width: 90%;
     max-width: 200px;
-    background: white;
-    color: white;
+    background: #b7e4c7;
+    color: darkgreen;
     font-size: 17px;
     cursor: pointer;
     border-radius: 3px;
@@ -172,7 +172,7 @@ ul{
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&display=swap');
 
 h1,h2,h3 {
-    font-family: "Playfair Display";
+    font-family: "Pt Serif";
 }
 
 body {
@@ -203,12 +203,12 @@ li a, .dropbtn {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 15px 20px;
+    padding: 17px 17px;
     text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: #74c69d;
+    background-color: #b7e4c7;
 }
 
 li.dropdown {
@@ -216,7 +216,7 @@ li.dropdown {
 }
 
 button {
-    font-family: "Pt Serif";
+    font-family: Verdana;
     border: none;
     background-color: white;
     font-size: 17px;
