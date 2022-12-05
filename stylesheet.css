@@ -186,6 +186,7 @@ body {
     width: 83%;
     overflow: hidden;
     margin: auto;
+
 }
 
 ul {
@@ -257,13 +258,16 @@ button {
 
 .major {
     padding-top: 0px;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .major p {
-    text-indent: 0.5in;
-    text-align: justify;
+
+    text-align: center;
 }
 .major {
     width: 90%;
@@ -272,6 +276,7 @@ button {
     background-color: #b7e4c7;
     border-radius: 7px;
     margin: auto;
+    margin-bottom: 5%;
 }
 
 .imgbox {
@@ -311,7 +316,7 @@ button {
     float: right;
     width: 47%;
     box-sizing: border-box;
-    text-align: justify;
+    text-align: center;
     background-color: #b7e4c7;
     border-radius: 7px;
 }
@@ -347,6 +352,7 @@ button {
         width: 100%;
         float: none;
     }
+
 }
 
 #who {
